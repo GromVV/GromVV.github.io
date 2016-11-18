@@ -1,0 +1,410 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.parallax-window {
+		height: 1000px;
+	}
+	.carousel-caption {
+		top: 6% !important;
+		left: 23% !important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.accent p {
+		line-height: 17px
+	}
+	.text,
+	.text_2{
+		margin-top: 23px;
+		padding-top: 0;
+
+	}
+	.text h2,
+	.text_2 h2{
+		font-size: 15px
+	}
+	.text p,
+	.text_2 p{
+		line-height: 17px
+	}
+	.carousel-caption {
+		top: 3% !important;
+		left: 32% !important;
+		width: 70%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	.tel{
+		display: block;
+		float: left
+	}
+	.parallax-window {
+		height: 900px;
+	}
+	.accent img {
+		display: inline-block;
+		float: left;
+		margin: 15px
+	}
+	.accent h2 {
+		text-align: left;
+		color: #ffb400;
+		text-transform: uppercase;
+		font-size: 19px;
+		margin: 0;
+		margin-top: 15px;
+		margin-bottom: 7px;
+		font-weight: bold;
+	}
+	.accent p {
+		text-align: left;
+		color: #131213;
+		font-size: 16px;
+		margin: 0;
+	}
+	.pad{
+		padding: 10px
+	}
+	.accent_2 {
+		background-color: #fff;
+		position: absolute;
+		top: -196px;
+		z-index: 2;
+		width: 100%;
+		padding: 40px;
+	}
+	.accent_2 h1{
+		margin-bottom: 20px
+	}
+	.accent {
+		height: 501px;
+	}
+	.carousel-caption {
+		right: 20%;
+		left: 22%;
+		padding-bottom: 30px;
+	}
+	.send {
+		font-size: 60px;
+		line-height: 53px;
+	}
+	.rus {
+    font-size: 25px;
+  }
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.telefon{
+		display: block;
+		margin: 4px 0;
+		color: #fff;
+		font-size: 25px;
+		font-family: "Roboto-Thin";
+		margin-right: 13px;
+		vertical-align: middle;
+	}
+	.tel{
+		display: block
+	}
+	.send {
+		font-size: 40px;
+		line-height: 49px;
+	}
+	.rus {
+		color: #fff;
+		font-size: 15px;
+		font-family: "Roboto-Thin";
+		position: relative;
+	}
+	.top_text a {
+		width: 270px;
+		font-size: 18px;
+	}
+	.info {
+		margin-top: 10px;
+		z-index: 100;
+	}
+	.top_wrapper {
+		top: 145px;
+	}
+	.top_wrapper {
+		display: block;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		margin-top: 50px;
+	}
+	.home h1 {
+		text-align: center;
+		font-size: 38px;
+		font-weight: 100;
+		margin-top: 0;
+		font-family: "Roboto-Thin";
+		margin-bottom: 55px;
+	}
+	.accent_2 {
+		padding: 35px 0;
+	}
+	.accent p {
+		line-height: 17px
+	}
+	.accent {
+		height: 551px;
+	}
+	.leave span {
+		color: #fff;
+		font-size: 31px;
+		font-family: "Roboto-Thin";
+		display: block;
+		text-align: center;
+		position: relative;
+		line-height: 44px;
+		margin-top: 20px;
+	}
+	.app{
+		padding: 20px;
+		padding-bottom: 50px;
+	}
+	.app p {
+		margin: 0
+	}
+	.form button {
+		width: 212px;
+		font-size: 14px;
+		float: left;
+		margin-left: 15px;
+	}
+	.app span::before {
+		content: "";
+		height: 1px;
+		position: absolute;
+		width: 18px;
+		background-color: #ffb400;
+		margin-left: -27px;
+		top: 50%;
+	}
+	.app span::after {
+		content: "";
+		height: 1px;
+		position: absolute;
+		width: 18px;
+		background-color: #ffb400;
+		margin-left: 7px;
+		top: 50%;
+	}
+	.rus::before {
+		content: "";
+		height: 1px;
+		position: absolute;
+		width: 15px;
+		background-color: #ffb400;
+		margin-left: -21px;
+		top: 50%;
+	}
+	.rus::after {
+		content: "";
+		height: 1px;
+		position: absolute;
+		width: 15px;
+		background-color: #ffb400;
+		margin-left: 7px;
+		top: 50%;
+	}
+	.form button::after {
+		content: "";
+		height: 83px;
+		position: absolute;
+		width: 36px;
+		background-image: url(../img/arrow.png);
+		margin-left: 38px;
+		top: 35%;
+	}
+	.bg {
+		padding: 20px 10px 50px 10px;
+	}
+	.icon_1 {
+		height: 140px;
+		width: 140px;
+		background-color: #333330;
+		padding-top: 36px;
+		float: right;
+		margin-left: 23px;
+	}
+	.text h2, .text_2 h2 {
+		font-size: 13px;
+	}
+	.text p, .text_2 p {
+		line-height: 14px;
+	}
+	.reviews {
+		color: #F3F3F3;
+		padding: 20px;
+	}
+	.reviews p {
+		color: #000;
+		font-size: 35px;
+		font-family: "Roboto-Thin";
+		display: block;
+		text-align: center;
+		position: relative;
+		margin: 0;
+		margin-bottom: 44px;
+	}
+	.but_prev {
+		position: absolute;
+		margin-left: -55px;
+		top: 157px;
+		color: #AFAFAF;
+		font-size: 50px;
+	}
+	.but_next {
+		position: absolute;
+		right: -40px;
+		top: 157px;
+		color: #AFAFAF;
+		font-size: 50px;
+	}
+	.carousel-caption {
+		position: relative;
+		left: 0 !important;
+		width: 	100% !important;
+		padding-bottom: 0;
+	}
+	.form_callback input {
+		border: none;
+		height: 50px;
+		margin-bottom: 21px;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 15px;
+	}
+	.form_callback button{
+		border: none;
+		height: 50px;
+		margin-bottom: 21px;
+		width: 200px;
+		margin-left: 25px;
+		margin-right: 25px;
+		background-color: #ffb400;
+		color: #fff;
+		font-size: 15px;
+		text-transform: uppercase;
+	}
+	.form_callback h4 {
+		text-align: center;
+		font-size: 21px;
+		font-family: "Roboto-Thin";
+		margin-bottom: 20px;
+		position: relative;
+	}
+	.form_callback h4::before {
+		content: "";
+		height: 1px;
+		position: absolute;
+		width: 40px;
+		background-color: #ffb400;
+		margin-left: -52px;
+		top: 50%;
+	}
+	.form_callback h4::after {
+		content: "";
+		height: 1px;
+		position: absolute;
+		width: 40px;
+		background-color: #ffb400;
+		margin-left: 12px;
+		top: 50%;
+	}
+	.text p {
+		text-align: right;
+		font-size: 14px;
+		font-family: "Verdana";
+		color: #73626e;
+		margin: 0;
+	}
+	.text_2 p {
+		font-size: 14px;
+		font-family: "Verdana";
+		color: #73626e;
+		margin: 0;
+	}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media only screen and (min-width : 1400px) {
+	.parallax-window {
+		height: 1100px;
+	}
+}
+@media only screen and (min-width : 1600px) {
+	.parallax-window {
+		height: 1200px;
+	}
+}
+@media only screen and (min-height : 1000px) {
+	.parallax-window {
+		height: 1300px;
+	}
+}
